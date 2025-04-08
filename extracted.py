@@ -165,7 +165,7 @@ def ask_question_with_model(question, context, model_choice, vector_store):
 # ==========================
 def main():
     st.set_page_config(page_title="RAG Application")
-    st.header("RAG Application with OCR and Model Selection")
+    st.header("Tag RAG Application ")
 
     if "processed_pdfs" not in st.session_state:
         st.session_state.processed_pdfs = {}

@@ -196,6 +196,7 @@ def main():
             response = ask_question_with_model(question, file["text"], model_choice, file["vector_store"])
             st.subheader("Answer:")
             st.write(response)
+    st.markdown("*Made with love by unaib*")
 
 
 if __name__ == "__main__":

@@ -5,10 +5,12 @@ pdfplumber
 PyMuPDF
 streamlit
 python-dotenv
-langchain
+langchain‑core==0.2.43
 langchain-google-genai
 langchain-community
 langchain-ollama
 google-generativeai
 faiss-cpu
 langchain-text-splitters
+langchain==0.2.14
+

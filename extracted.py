@@ -10,7 +10,7 @@ import pdfplumber
 import fitz  # PyMuPDF
 import streamlit as st
 from dotenv import load_dotenv
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores.faiss import FAISS
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
 from langchain.prompts import PromptTemplate
@@ -201,3 +201,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

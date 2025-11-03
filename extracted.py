@@ -11,7 +11,7 @@ import fitz  # PyMuPDF
 import streamlit as st
 from dotenv import load_dotenv
 from langchain_community.vectorstores.faiss import FAISS
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
 from langchain.prompts import PromptTemplate
 from langchain.chains.question_answering import load_qa_chain
@@ -201,4 +201,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
